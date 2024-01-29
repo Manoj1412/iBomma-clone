@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    border-top:5px yellow solid;
+    background-color: rgb(20, 18, 18);
+}
+.navbar {
+    background-color: rgba(36, 36, 34, 0.689);
+    padding-left: 70px;
+    padding-top: 20px;
+}
+#intro {
+    color: white;
+    padding-top: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+}
+ul {
+    display: inline-flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-left: 670px;
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li a{
+    float: left;
+    display: flex;
+    text-align: center;
+    border: 3px 2px solid;
+    border-radius: 2px;
+    color: white;
+    text-decoration: none;
+}
+pre {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Search {
+    background-color: rgb(49, 44, 44);
+    border-radius: 20px;
+    font-size: large;
+    color: beige;
+}
